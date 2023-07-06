@@ -1,1 +1,7 @@
 # Maison-Intelligente
+
+We have developed a prototype of a connected home using two different technologies. Firstly, we chose to utilize Bluetooth to enable communication between the user interface (UI), in the form of a mobile application, and the system. Secondly, we opted for WiFi to connect the user interface (Node-RED) to a Mosquitto broker installed on a Raspberry Pi. The Raspberry Pi acts as a gateway, connecting the system via the MQTT protocol. The hardware components of our prototype include various sensors and actuators, such as temperature sensors, motion detectors, and switches, all of which are connected to the system to enable monitoring and control of the connected home.
+
+With this prototype, users can interact with the connected home system through the mobile application, allowing them to monitor and control various aspects of their home remotely. The sensors provide real-time data on temperature, motion, and other environmental factors, enabling users to adjust settings and trigger automated actions. For example, users can receive alerts on their mobile devices when motion is detected or remotely adjust the temperature of their home.
+
+This connected home prototype demonstrates the integration of Bluetooth, WiFi, and MQTT technologies to create a comprehensive and user-friendly smart home experience. It offers convenience, energy efficiency, and enhanced security through remote monitoring and control capabilities.
